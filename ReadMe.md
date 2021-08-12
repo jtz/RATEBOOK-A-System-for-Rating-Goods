@@ -15,29 +15,29 @@ Since UPC guarantees the unique identity of goods, users can easily and precisel
 
 ## Key Requirements
 
-#### Add Goods to Database
+- #### Add Goods to Database
 Ratebook shall support adding goods to the database. Users can create a new goods profile by writing information (including but not limited to category, UPC, name, brand, price range, rate counts, rating, and reviews) to the database that store all goods profiles.
 
 
-#### Update Goods to Database
+- #### Update Goods to Database
 Ratebook shall support updating goods information to the database. Users can update the old information of the existing goods.
 
-#### Search Goods by UPC from Database
+- #### Search Goods by UPC from Database
 Ratebook shall support searching for goods by UPC(barcode) from database. If the searched UPC exists in database, the program should display all information of the corresponding goods in console.
 
-#### Search Child Goods by Safe Age from Database
+- #### Search Child Goods by Safe Age from Database
 Ratebook shall support searching for child goods by safe age from database. Safe age is an important feature of child goods and are frequently used as searching filter. If the searched child goods exists in database, the system should display all information of the corresponding goods in console.
 
-#### Add Rating, Review and Purchased Price to Database
+- #### Add Rating, Review and Purchased Price to Database
 Ratebook shall support adding rating, review, and purchase price to the corresponding goods profile in database.
 
-#### Display all Goods from Database
+- #### Display all Goods from Database
 Ratebook shall support displaying all goods in database. All the information stored in database will be displayed in console.
 
-#### Add goods in UI
+- #### Add goods in UI
 Ratebook shall support users to add goods to database through UI. Users can click the tab named “Add Goods” and fill in goods’ UPC barcode, name, brand, and category in the corresponding input boxes. If one of input boxes is left blank, a warning “Barcode\Name\Brand\Category can’t be null.” will popup. If an existed barcode is entered, a warning “Goods has already existed in Ratebook!” will popup.
 
-#### List all goods in UI
+- #### List all goods in UI
 Ratebook shall support displaying all goods from database in UI. Users can click the tab named “Goods List” to view all goods information. This function is impractical when the quantity of goods is large, but now it is useful for testing.
 
 ## Directory
@@ -48,17 +48,17 @@ Ratebook shall support displaying all goods from database in UI. Users can click
 
 ## Run Instructions
 
-1.Requires jfxrt.jar, jfxswt.jar, and sqlite-jdbc-3.34.0.jar in C:/lib.
+1. Requires jfxrt.jar, jfxswt.jar, and sqlite-jdbc-3.34.0.jar in C:/lib.
 
-2.The path of database file is "jdbc:sqlite:C:/lib/sqlite/ratebook.db", which can be changed in goods.db/CreateDB.java.
+2. The path of database file is "jdbc:sqlite:C:/lib/sqlite/ratebook.db", which can be changed in goods.db/CreateDB.java.
 
-3.Run goods.db/CreateDB.java to create a database when first run the program.
+3. Run goods.db/CreateDB.java to create a database when first run the program.
 
-4.Run goods.test/GoodsNoJUnitTest.java to test all the functions related to I/O.
+4. Run goods.test/GoodsNoJUnitTest.java to test all the functions related to I/O.
 
-5.Run goods.ui/MainUI.java to test the UI: list goods, add goods.
+5. Run goods.ui/MainUI.java to test the UI: list goods, add goods.
 
-6.Other tests:
+6. Other tests:
 
 Run goods.test/GoodsJUnitTest.java to test methods in Goods class in goods.model package.
 
