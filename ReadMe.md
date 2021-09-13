@@ -1,5 +1,5 @@
 # RATEBOOK: A System for Rating Goods
--- CS622 Advanced Programming Techniques Final Project
+-- CS622 Advanced Programming Techniques Term Project
 
 ## Summary Description
 
