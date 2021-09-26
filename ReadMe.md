@@ -1,5 +1,6 @@
-# RATEBOOK: A System for Rating Goods
+# Ratebook: A System for Rating Goods
 -- CS622 Advanced Programming Techniques Term Project
+-- CS669 Database Design and Implementation for Business Term Project
 
 ## Summary Description
 
